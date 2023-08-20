@@ -2,7 +2,7 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "global": true
+        "node": true
     },
     "extends": "eslint:recommended",
     "ignorePatterns": [
@@ -12,7 +12,8 @@
     "overrides": [
         {
             "files": [
-                "**/*.test.js"
+                "**/*.test.js",
+                "**/*mock.js"
             ],
             "env": {
                 "jest": true
