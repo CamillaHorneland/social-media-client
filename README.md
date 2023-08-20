@@ -22,4 +22,6 @@ Linting is added through git hooks and utilizes ESLint and Prettyfier.
 - The user cannot submit the login form with invalid credentials and is shown a message
 - The user can log out with the logout button
 
+  [![Code Review](https://github.com/CamillaHorneland/social-media-client/actions/workflows/gpt.yml/badge.svg?branch=workflow)](https://github.com/CamillaHorneland/social-media-client/actions/workflows/gpt.yml)
+
 
